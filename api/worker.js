@@ -55,7 +55,7 @@ export default {
 						{"text": "➕ اضافه کردن به گروه ➕", "url": `https://t.me/${botUsername}?startgroup=botstart`},
 					],
                     [
-                        {"text": "Github Source 📥", "url": "https://t.me/+I6_WffTbAdg1NjBk"},
+                        {"text": "ورود به گروه شعر و کتاب", "url": "https://t.me/+I6_WffTbAdg1NjBk"},
                     ]
 				]
 				);
