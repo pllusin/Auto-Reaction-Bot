@@ -50,11 +50,11 @@ async function onUpdate(data, botApi, Reactions, RestrictedChats, botUsername, R
         if (data.message && (text === '/start' || text === '/start@' + botUsername)) {
             await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title), [
                 [
-                    { "text": "➕ Add to Channel ➕", "url": `https://t.me/${botUsername}?startchannel=botstart` },
-                    { "text": "➕ Add to Group ➕", "url": `https://t.me/${botUsername}?startgroup=botstart` },
+                    { "text": "➕ اضافه کردن به کانال ➕", "url": `https://t.me/${botUsername}?startchannel=botstart` },
+                    { "text": "➕ اضافه کردن به گروه ➕", "url": `https://t.me/${botUsername}?startgroup=botstart` },
                 ],
                 [
-                    { "text": "Github Source 📥", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot" },
+                    { "text": "ورود به گروه شعر و کتاب", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot" },
                 ]
             ]);
         } else if (data.message && text === '/reactions') {
