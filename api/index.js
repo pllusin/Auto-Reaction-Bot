@@ -15,7 +15,7 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 
-const botToken = "7818588156:AAG5pwQ7L80dDuyXZS4xOVTH7KlQdmCrPaQ";
+const botToken = "11";
 const botUsername = "tabasom_ReactionBOT";
 const Reactions = splitEmojis("👍❤🔥🥰👏🎉🤩🙏👌🕊😍🐳❤‍🔥💯⚡🏆");
 const RestrictedChats = getChatIds("");
