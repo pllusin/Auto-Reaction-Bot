@@ -54,12 +54,12 @@ async function onUpdate(data, botApi, Reactions, RestrictedChats, botUsername, R
                     { "text": "➕ اضافه کردن به گروه ➕", "url": `https://t.me/${botUsername}?startgroup=botstart` },
                 ],
                 [
-                    { "text": "ورود به گروه شعر و کتاب", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot" },
+                    { "text": "ورود به گروه شعر و کتاب", "url": "https://t.me/+I6_WffTbAdg1NjBk" },
                 ]
             ]);
         } else if (data.message && text === '/reactions') {
             const reactions = Reactions.join(", ");
-            await botApi.sendMessage(chatId, "✅ Enabled Reactions : \n\n" + reactions);
+            await botApi.sendMessage(chatId, "✅ ری اکشن های فعال شده     : \n\n" + reactions);
         } else {
             // Calculate the threshold: higher RandomLevel, lower threshold
             let threshold = 1 - (RandomLevel / 10);
