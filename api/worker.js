@@ -51,18 +51,18 @@ export default {
                 await botApi.sendMessage(chatId, startMessage.replace('UserName', content.chat.type === "private" ? content.from.first_name : content.chat.title),
 				[
 					[
-                        {"text": "➕ Add to Channel ➕", "url": `https://t.me/${botUsername}?startchannel=botstart`},
-						{"text": "➕ Add to Group ➕", "url": `https://t.me/${botUsername}?startgroup=botstart`},
+                        {"text": "➕ اضافه کردن به کانال ➕", "url": `https://t.me/${botUsername}?startchannel=botstart`},
+						{"text": "➕ اضافه کردن به گروه ➕", "url": `https://t.me/${botUsername}?startgroup=botstart`},
 					],
                     [
-                        {"text": "Github Source 📥", "url": "https://github.com/Malith-Rukshan/Auto-Reaction-Bot"},
+                        {"text": "Github Source 📥", "url": "https://t.me/+I6_WffTbAdg1NjBk"},
                     ]
 				]
 				);
             } else 
 			if (data.message && text === '/reactions') {
 				const reactions = Reactions.join(", ");
-				await botApi.sendMessage(chatId, "✅ Enabled Reactions : \n\n" + reactions);
+				await botApi.sendMessage(chatId, "✅ ری اکشن های فعال شده  : \n\n" + reactions);
 			} else {
                 // Calculate the threshold: higher RandomLevel, lower threshold
                 let threshold = 1 - (RandomLevel / 10);
