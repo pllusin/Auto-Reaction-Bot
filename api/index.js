@@ -15,10 +15,10 @@ dotenv.config();
 const app = express();
 app.use(bodyParser.json());
 
-const botToken = process.env.BOT_TOKEN;
-const botUsername = process.env.BOT_USERNAME;
-const Reactions = splitEmojis(process.env.EMOJI_LIST);
-const RestrictedChats = getChatIds(process.env.RESTRICTED_CHATS);
+const botToken = "7818588156:AAG5pwQ7L80dDuyXZS4xOVTH7KlQdmCrPaQ";
+const botUsername = "tabasom_ReactionBOT";
+const Reactions = splitEmojis("👍❤🔥🥰👏🎉🤩🙏👌🕊😍🐳❤‍🔥💯⚡🏆");
+const RestrictedChats = getChatIds("");
 const RandomLevel = parseInt(process.env.RANDOM_LEVEL || '0', 10);
 
 const botApi = new TelegramBotAPI(botToken);
