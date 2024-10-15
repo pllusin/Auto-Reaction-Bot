@@ -1,15 +1,6 @@
-export const startMessage = `👋 Hello there, UserName !
+export const startMessage = `به ربات واکنش خودکار ایموجی خوش آمدید😍❤️
 
-Welcome to the *Auto Emoji Reaction Bot 🎉*, ready to sprinkle your conversations with a little extra happiness!
-
-💁‍♂️ Here's how I spice up your chats:
-
-*✨ DM Magic*: Message me and receive a surprise emoji in return. Expect the unexpected and enjoy the fun!
-*🏖 Group & Channel*: Add me to your groups or channels, and I'll keep the vibe positive by reacting to messages with engaging emojis.
-
-✍️ To view the emojis I can use, simply type /reactions. To create your own auto reaction bot, head over to: [Auto-Reaction-Bot on GitHub](https://github.com/Malith-Rukshan/Auto-Reaction-Bot).
-
-Let's elevate our conversations with more energy and color! 🚀`
+🏖 گروه و کانال: من را به گروه‌ها یا کانال‌های خود اضافه کنید و با واکنش نشان دادن به پیام‌ها با شکلک‌های جذاب، حال و هوای مثبت ایجاد کنم🥳`
 export const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +29,7 @@ export const htmlContent = `
 </head>
 <body>
 
-<div class="title">Telegram Auto Reaction Bot 🎉</div>
+<div class="title"> ربات واکنش خودکار ایموجی🎉</div>
 <img class="logo" src="https://telegra.ph/file/cb59967120c6bda64580b.jpg">
 
 <button class="button githubBtn" onclick="window.location='https://github.com/Malith-Rukshan/Auto-Reaction-Bot'">Open Source 🌱</button>
